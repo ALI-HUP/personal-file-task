@@ -1,0 +1,382 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'Inter-VariableFont_slnt,wght';
+    src: url('./Inter-VariableFont_slnt\,wght.ttf');
+}
+
+
+
+
+body {
+    border: 0px;
+    padding: 0px;
+    font-family: 'Inter-VariableFont_slnt,wght';
+    width: 100%;
+}
+
+
+
+.black-header {
+    background-color: #060513;
+    color: white;
+    font-size: 25px;
+    height: 80px;
+}
+
+
+.mic{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+
+.file {
+    position: absolute;
+    font-weight: bold;
+    margin-left: 290px;
+    margin-top: 35px;
+}
+
+
+.arrow {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -30px;
+}
+
+
+.right-part {
+    margin-left: 985px;
+    margin-top: -25px;
+}
+
+.moon {
+    width: 27px;
+    height: 27px;
+    margin-top: 38px;
+    position: absolute;
+}
+
+
+.bell {
+    width: 27px;
+    height: 27px;
+    margin-left: 65px;
+    margin-top: 38px;
+    position: absolute;
+}
+
+.profile-pic {
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+
+.div-down-arrow {
+    position: absolute;
+    margin-left: 187px;
+    margin-top: -42px;
+}
+
+
+.text{
+    position: absolute;
+    margin-top: 50px;
+    height: 40px;
+    width: 900px;
+    cursor: pointer; 
+    border-bottom: 2px solid gray;
+    margin-left: 170px;
+}
+
+.general {
+    font-size: 16px;
+    width: 130px;
+    font-weight: bold;
+    position: relative;
+    background: none;
+    border: none;
+}
+
+.general:hover {
+    position: relative;
+    cursor: pointer; 
+    border-bottom: 3px solid black;
+    width: 130px;
+    padding-bottom: 18px;
+}
+
+
+.account {
+    position: relative;
+    font-size: 16px;
+    margin-left: 70px;
+    width: 140px;
+    font-weight: bold;
+    background: none;
+    border: none;
+}
+
+.account:hover {
+    position: relative;
+    cursor: pointer; 
+    border-bottom: 4px solid black;
+    width: 140px;
+    padding-bottom: 18px;
+}
+
+.save-button {
+    width: 130px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 940px;
+    background-color: white;
+    border-radius: 13px;
+    position: relative;
+    font-weight: bold;
+}
+
+.email-input {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.email{
+    width: 350px;
+    height: 35px;
+    border-radius: 12px;
+}
+
+.email-label{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -8px;
+    background-color: white;
+    width: 8%;
+}
+
+
+.pass-input {
+    text-align: center;
+}
+
+.password{
+    width: 350px;
+    height: 35px;
+    border-radius: 12px;
+}
+
+
+.pass-label{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -8px;
+    background-color: white;
+    width: 8%;
+}
+
+
+.rep-pass-input {
+    text-align: center;
+}
+
+.repeat-pass {
+    margin-top: 15px;
+    width: 350px;
+    height: 35px;
+    border-radius: 12px;
+}
+
+
+.rep-pass-label {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: white;
+    width: 12%;
+}
+
+.delete-button {
+    width: 130px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 440px;
+    background-color: white;
+    border-color: red;
+    color: red;
+    font-weight: bold;
+    border-radius: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p {
+    font-size: 17px;
+    align-items: center;
+}
+
+.box a {
+    display: inline-block;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+
+.modal {
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(6, 5, 19, 0.9);
+    transition: all 0.4s;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+
+.alarm{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.restored-qu{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+
+.content {
+    position: absolute;
+    background: white;
+    border-radius: 12px;
+    width: 566px;
+    height: 215px;
+} 
+
+
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.box-close {
+    position: absolute;
+    right: 20px;
+    margin-top: -40px;
+}
+
+.cancle {
+    width: 90px;
+    height: 50px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 13px;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 9px;
+}
+
+
+.delete-button2 {
+    position: absolute;
+    width: 167px;
+    height: 56px;
+    margin-top: 9px;
+    right: 20px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 13px;
+    font-size: 16px;
+}
+
+
+.deletelink-buttom {
+    text-decoration: none;
+    color: red;
+}
